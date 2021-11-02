@@ -1,0 +1,504 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+#container{
+	width: 100%;
+}
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-position:fixed;
+	background-repeat: no-repeat;
+	border:1px solid black;
+
+}
+#header #welcome{margin: 60% 0 35% 0}
+#header #welcome h4{
+	text-align: center;
+	color: #c49b63;
+	font-family: Gabriola;
+	font-weight: lighter;
+	font-size: 3em;
+	letter-spacing: 3px;
+}
+#header #welcome h5{
+	text-align: center;
+	color: #968e8e;
+	margin-top: -5%;
+	font-weight: lighter;
+	font-size: 1em;
+	font-family: Ebrima;
+	letter-spacing: 3px;
+}
+#header h3{
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+#header #nav-bar{
+	width: 100%;
+	background-color:black;
+	margin: -1% 0 0% 0;
+	/*height: 22%;*/
+	overflow: hidden;
+	position: fixed;
+	padding:2% 0 2% 0;
+	border-bottom:2px solid #af7228;
+}
+#nav-bar .logo img{width: 60px;height: 60px}
+#header #nav-bar ul li {
+	margin: 0% -2% 0% 4%;
+	list-style-type: none;
+	display: inline-block;
+}
+#header #nav-bar ul li a{
+	color: #bf8d4c;
+	text-decoration: none;
+	font-size: 0.8634em;
+	font-family: Ebrima;
+	font-weight: bold;
+}
+#main h3{
+	color: #c49b63;
+	font-size: 1.9em;
+	font-family: Ink Free;
+	text-align: center;
+	margin: 9% 0 0 0;
+
+}
+#main h2{
+	color:#ede8e8 ;
+	font-family: Candara;
+	text-align: center;
+	font-size: 2em;margin: -4% 0 0 0;
+}
+#main p{
+	color:#848181 ;
+	font-size: 1em;
+	font-family: Consolas;
+	text-align: center;
+	width: 80%;
+	line-height: 23px;
+	margin: 10% 0 0 10%
+}
+#container #info{
+	width: 100%;
+	background-color: black;
+}
+.inf0_details h4{
+	color: white;
+	font-family: Candara;
+	padding-top: 14%;
+	text-align: center;
+	font-size: 1.6em;
+}
+#container #info #bookTable{
+	width: 100%;
+	background-color: #c49b63;
+
+}
+#container #info #bookTable h3{
+	text-align: center;
+	font-family: Candara;
+	color: white;
+	padding-top: 20%;font-size: 1.6em
+}
+#container #info #bookTable form{margin: 10% 0 0 0}
+#container #info #bookTable form input,textarea{
+	margin: 7% 0 0 20%;
+	width: 60%;
+	border-top: 1px solid #c49b63;
+	padding-bottom: 3%;
+	background:#c49b63;
+	border-left: 1px solid #c49b63;
+	border-right: 1px solid #c49b63;
+	border-bottom: 1px solid white;
+}
+#container #info #bookTable form input::placeholder{
+	color: black;
+	font-family: Consolas;font-size: 0.9458em;
+}
+#container #info #bookTable form input[type=submit]{
+	padding: 5% 9%;
+	border:1px solid #8e5407;
+	background:#b57b30;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 20%;
+}
+#container #discover_story #discovery_Bgkimg{
+	background-image: url(../images/bg_3.jpg);
+	background-size: 100% 100%;
+	padding-top: 60%;
+}
+#container #discover_story #right_side_blank{
+	background-image: url(../images/bg_4.jpg);
+	padding-top: 70%;padding-bottom: 100%}
+#container #discover_story  #overlap{
+	width: 80%;
+	margin: -190% 0 0 10%;
+	background-color:rgba(0,0,0,0.4);
+}
+
+#container #discover_story  #overlap p{
+	color: gray;
+	font-family: Consolas;
+	width: 80%;
+	margin: 10% 0 0 8%;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	line-height: 19px;
+	padding-bottom: 10%;
+}
+#brown_box{
+	background-color: #c49b63;
+	/*padding-bottom: 10%;*/
+	border:1px solid #c49b63;
+}
+#brown_box .order_details{width: 80%;margin: 20% auto;}
+#brown_box .order_details img{padding: 15%;border:1px solid #77490d;margin: 0 0 5% 23%;}
+#brown_box .order_details h4{font-family: Candara;text-align: center;font-size: 1.2em}
+#brown_box .order_details p{
+	color: #1d150b;
+	font-family: Consolas;
+	font-size: 0.8em;
+	width: 80%;
+	text-align: center;
+	margin-top: 5%;
+	line-height: 19px;
+}
+#coffe_sellers{
+	background-image: url(../images/bg_4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border:1px solid black;
+}
+#coffe_sellers #view_menu{
+	margin: 20% 0 20% 28%;
+}
+#coffe_sellers a{
+	text-decoration: none;
+	color: #c49b63;
+	font-family: Candara;
+	
+	padding: 5% 9%;
+	border:1px solid #c49b63;
+}
+#coffe_sellers #menu_img img{
+	width: 70%;
+	margin: 10% 0 20% 15%;
+}
+#customers_say{
+	border:1px solid black;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/bg_1.jpg);
+	background-size: 100% 100%;
+}
+#customers_say #openion_1,#openion_2,#openion_3,#openion_4,#openion_5{
+	width: 99.6%;
+}
+#customers_say #openion_1{background-color: #db9841;border:1px solid #db9841;margin-top: 50px;padding-bottom: 50px}
+#customers_say #openion_2{background-color: #b78645;border:1px solid #b78645;padding-bottom: 50px}
+#customers_say #openion_3{background-color: #db9841;border:1px solid #db9841;padding-bottom: 50px}
+#customers_say #openion_4{background-color: #b78645;border:1px solid #b78645;padding-bottom: 50px}
+#customers_say #openion_5{background-color: #db9841;border:1px solid #db9841;padding-bottom: 50px}
+#customers_say #openion_1 h6, #openion_2 h6, #openion_3 h6,#openion_4 h6,#openion_5 h6{
+	color:white;
+	font-family: Candara;
+	padding:14% 0 0 0;
+	margin: 0 0 0 50%;
+	font-size: 1.2em;
+}
+#customers_say #openion_1 span, #openion_2 span, #openion_3 span,#openion_4 span,#openion_5 span{
+	margin: 0 0 0 50%;
+	color:#754710;
+	font-family: Candara;
+
+}
+#customers_say #openion_1 p,#openion_2 p,#openion_3 p,#openion_4 p,#openion_5 p{color: white;}
+#best_coffe_sellers{
+	background-image: url(../images/bg_4.jpg);
+	background-size: 100% 100%;
+	border:1px solid black;
+}
+#best_coffe_sellers .capucino img{
+	width: 70%;
+	margin: 20% 0 0 14%;
+}
+#best_coffe_sellers .capucino{margin: 0 0 20% 0;}
+#best_coffe_sellers .capucino h4,h5{color: white;font-family:Candara;text-align: center;
+	margin-top: 10%;margin-bottom: 1%;font-size: 1.3em }
+#best_coffe_sellers .capucino span a{
+	text-decoration: none;
+	color: #c49b63;
+	padding: 5% 9%;
+	border:1px solid #c49b63;
+	
+}
+#best_coffe_sellers .capucino span{margin: 20% 0 0 31%;}
+#best_coffe_sellers .gallery img{
+	width: 100%;
+}
+#our_products{
+	background-image: url(../images/bg_4.jpg);
+	background-size: 100% 100%;
+	border:1px solid black;
+}
+#our_products ul li{
+	color: #c49b63;
+	margin: 20% 0 -10% 0;
+	list-style-type: none;
+	text-align: center;
+	font-family: Candara;
+	font-size: 1.2em;
+}
+#our_products ul li a{
+	padding: 3% 8%;
+	border:1px solid #c49b63;
+}
+#our_products .grilled_beef h4,h5{
+	color: white;font-family:Candara;text-align: center;
+	margin-top: 10%;margin-bottom: 10% ; font-size: 1.5em
+}
+#our_products .grilled_beef span a{
+	text-decoration: none;
+	color: #c49b63;
+	padding: 3% 8%;
+	border:1px solid #c49b63;
+}
+#our_products .grilled_beef span{margin: 10% 0 0 30%;}
+#our_products .grilled_beef img{
+	width: 80%;
+	margin: 20% 0 0 10%;
+}
+#our_products .grilled_beef{margin-bottom: 15%;}
+#footer{
+	width: 100%;
+	background-color: black;
+	border-top:5px solid #c49b63;
+}
+#footer #about h4,#service h4 ,#haveQuestion h4{
+	color: #c49b63;
+	text-align: center;
+	margin: 15% 0 0 0;
+	font-family: Candara;
+	font-size: 1.9em;
+}
+#footer #about p{
+	color:#848181 ;
+	font-size: 1em;
+	font-family: Consolas;
+	text-align: left;
+	margin: 10% 0 0 15%;
+	width: 60%;
+	line-height: 23px;
+}
+#footer #about img{
+	margin: 10% -20% 0 30%;
+	width: 10%
+}
+#footer #service ul li{
+	color:#848181;
+	font-size: 1em;
+	font-family: Consolas;
+	margin: 9% 0 0 20%;
+	list-style-type: none;
+	text-align: left;
+}
+#footer #haveQuestion h6{
+	color:#848181 ;
+	font-size: 1em;
+	font-family: Consolas;
+	text-align: left;
+	margin: 9% 0 0 30%;
+	width: 50%;
+	line-height: 23px;
+}
+#footer #haveQuestion{
+	margin: 0 0 0% 0;
+}
+#footer #haveQuestion img{
+	width: 10%;
+	margin: 8% 0 -20% 10%;
+}
+#footer h3{
+	text-align: center;
+	margin:10% 0 0 0;
+	color:#848181;
+	font-size: 0.7em;
+	font-family: Consolas;
+	padding-bottom: 5%;
+}
+#footer span{
+	color: #c49b63;
+}
+
+@media only screen and (min-width:375px){
+	#header #nav-bar ul{text-align: center;}
+	#header #welcome h4{font-size: 3.5em}
+	#header #welcome h5{font-size: 1em;width: 70%;text-align: center;}
+	#footer #haveQuestion h6{margin: 10% 0 0 30%;}
+	#footer h3{font-size: 0.9em;}
+}
+@media only screen and (min-width:425px){
+	#main p{margin-top: 4%}
+	#brown_box .order_details{width: 80%;margin: 20% auto;}
+	#brown_box .order_details img{margin: 0 0 5% 25%;}
+	#coffe_sellers #view_menu{margin: 20% 0 20% 32%;}
+	#footer #haveQuestion h6{margin: 12% 0 0 30%;}
+	#footer h3{padding-bottom: 6%;width: 96%;text-align: center;}
+}
+@media only screen and (min-width:768px){
+	#nav-bar .logo img{margin: 2% 0 -4% 0}
+	#header #nav-bar ul {text-align: right;}
+	#header #nav-bar ul li {margin: 0% 2% 0% 1%;font-size: 1.3em}
+	#header #welcome{margin: 25% 0 35% 0;}
+	#header #welcome h5{font-size: 1em;margin:0 0 0 13%;}
+	#info .inf0_details{width: 40%;margin: 0 0 0 2%}
+	#info .inf0_details p{font-size: 1em;margin: 0 0 0 10%;width: 80%}
+	#container #info #bookTable{width: 50%;margin: -70% 0 0 49%}
+	#container #discover_story  #overlap{margin-top: -180%}
+	#container #discover_story  #overlap p{line-height: 27px;margin-top: 2%}
+	#brown_box .order_details{width:30%;display: inline-block;margin: 10% -3% 0 5%;}
+	#brown_box .order_details img{margin: 0 0 0 16%}
+	#brown_box .order_details h4{margin: 10% 0 0 0%;font-size: 1.4em}
+	#brown_box .order_details p{width: 80%;font-size: 0.8em;line-height: 27px;padding-bottom: 8%;
+		text-align: center;}
+	#main p{font-size:1.1em;width: 70%;margin: 2% auto;line-height: 26px}
+	#coffe_sellers #view_menu{margin: 10% 0 20% 36%;}
+	#coffe_sellers #view_menu a{font-size: 1.2em}
+	#coffe_sellers #menu_img img{width: 40%;margin: 0% 0 10% 6%;}
+	#main h3{font-size: 2.9em;margin: 9% 0 0 0}
+	#main h2{font-size: 3.2em;margin: -2% 0 0 0}
+	#customers_say #openion_1 h6, #openion_2 h6, #openion_3 h6,#openion_4 h6,#openion_5 h6{
+		margin: -10% 0 0 70%;font-size: 1.5em
+	}
+	#customers_say #openion_1 span, #openion_2 span, #openion_3 span,#openion_4 span,#openion_5 span{
+		margin: 0 0 0 70%;font-size: 1.2em
+	}
+	#best_coffe_sellers .capucino{display: inline-block;width: 43%;margin: 0 0 10% 5%}
+	#best_coffe_sellers .capucino img{width: 70%;margin: 10% 0 0 10%;}
+	#best_coffe_sellers .capucino h4,h5{margin:10% 0 18% 0%;font-size: 1.6em;}
+	#best_coffe_sellers .capucino p{margin:5% 0 0 8%;width: 80%}
+	#best_coffe_sellers .capucino span{margin: 20% 0 0 30%;}
+	#our_products ul li{display: inline-block;margin: 8% -10% 0 15%;width: 20%}
+	#our_products .grilled_beef span{margin: 0 0 0 35%;}
+	#our_products .grilled_beef span a{font-size: 1.3em}
+	#our_products .grilled_beef{margin-top: 9%}
+	#our_products .grilled_beef img{margin: 0% 0 0 10%}
+	#our_products .grilled_beef h5{margin: 5% 0 10% 1%;font-size: 1.7em}
+	#footer #about, #service{width:40% ;display:inline-block;margin: 0 0 0 16%;}
+	#footer #about,#service h4{margin: 0 0 24% 0}
+	#footer #service ul li{margin: 7% 0 0 34%}
+	#footer #about img{margin: 10% -20% 0 30%;}
+	#footer #haveQuestion{margin-top: -10%}
+	#footer #haveQuestion h6{margin: 8% 0 0 2%;display: inline-block;width:20%; }
+	#footer #haveQuestion img{width: 5%;margin: 0% 0 -2% 4%}
+}
+@media only screen and (min-width:1024px){
+	#header #welcome h4{font-size: 5em;margin: -5% 0 0 0%;}
+	#header #welcome h5{font-size: 1em;margin:-2% 0 0 15%;}
+	#main p{font-size:1.3em;}
+	#container #info #bookTable{margin: -60% 0 0 50%}
+	#discover_story #discovery_Bgkimg{width: 50%;padding-bottom: 5%;margin: 0 0 0 0}
+	#discover_story #right_side_blank{width: 50%;margin: -65% 0 0 50%}
+	#container #discover_story  #overlap{margin: -170% 0 0 20%;width: 70%}
+	#container #discover_story  #overlap p{font-size: 1.1em}
+	#brown_box .order_details{width:30%;display: inline-block;margin: 10% -3% 0 5%;}
+	#brown_box .order_details h4{margin: 10% 0 0 14%;font-size: 1.4em}
+	#brown_box .order_details p{width: 85%;font-size: 0.9em;line-height: 27px}
+	#coffe_sellers #our_menu{width: 45%;display: inline-block;}
+	#coffe_sellers #our_menu #view_menu{margin: 7% 0 20% 30%}
+	#coffe_sellers #menu_img{width: 50%;display: inline-block;}
+	#coffe_sellers #menu_img img{width: 40%;margin:10% 0 0% 8%;}
+	#customers_say #openion_1,#openion_2,#openion_3,#openion_4,#openion_5{width: 19.47%;display: inline-block;}
+	#customers_say #openion_1 span,#openion_2 span,#openion_3 span,#openion_4 span,#openion_5 span{
+		margin: 0 0 0 30%;font-size: 1em
+	}
+	#customers_say #openion_1 p,#openion_2 p,#openion_3 p,#openion_4 p,#openion_5 p{
+		width: 90%;font-size: 0.99em;margin: 10% 0 0 5%
+	}
+	#customers_say #openion_1 h6,#openion_2 h6,#openion_3 h6,#openion_4 h6,#openion_5 h6{
+		font-size: 1.1em;margin: 0 0 0 30%
+	}
+	#best_coffe_sellers .capucino{width: 35%;margin: 0 0 10% 10%}
+	#best_coffe_sellers .capucino h4,h5{margin:5% 0 10% -8%;font-size: 1.5em;}
+	#best_coffe_sellers .capucino p{margin:0% 0 0 6%;font-size: 1em}
+	#best_coffe_sellers .capucino span{margin: 0 0 15% 25%;}
+	#best_coffe_sellers .gallery .galryimg{width: 100%}
+	#best_coffe_sellers .gallery{width: 24.5%; display: inline-block}
+	#our_products ul li{display: inline-block;margin: 8% -17% 10% 19%;}
+	#our_products .grilled_beef{width: 32%;display: inline-block;margin: 0 0 20% 0%}
+	#our_products .grilled_beef h4{margin: 8% 0 0 5%;font-size: 1.4em}
+	#our_products .grilled_beef p{margin: 10% 0 0 14%;font-size: 1em}
+	#our_products .grilled_beef h5{margin: 8% 0 20% 10%;font-size: 1.4em}
+	#our_products .grilled_beef span{margin: 0 0 0 30%}
+	#footer{padding-bottom: -30%;}
+	#footer h3{padding-top: 0%;font-size: 1.2em}
+	#footer #about,#service{width:40% ;display:inline-block;margin: 0 0 0 5%;}
+	#footer #service h4{margin: 0 0 10% 0}
+	#footer #about h4{margin: 10% 0 0% -35%}
+	#footer #service ul li{margin: 10% 0 0 37%}
+	#footer #about img{margin: 10% -20% 0 30%;}
+	#footer #haveQuestion h6{margin: 10% 0 0 2%;display: inline-block;width:20%;}
+	#footer #haveQuestion img{width: 5%;margin: -10% 0 0 4%}
+	
+}
+@media only screen and (min-width:1440px){
+	#nav-bar .logo img{margin: 1% 0 -3% 0;width: 90px;height: 90px}
+	#main h3{font-size: 3em;}
+	#main h2{font-size: 3.4em;}
+	#header #nav-bar ul li {margin: 0% 2% 0% 1%;font-size: 1.7em}
+	#header #welcome h4{font-size: 7em;}
+	#header #welcome h5{font-size: 2em}
+	#info .inf0_details{width: 18%;margin: 0 0 0 1%;display: inline-block;}
+	#info .inf0_details #pad{padding-bottom: 19%}
+	#info .inf0_details p{font-size: 1.12em;margin: 0% 0 9% 6%}
+	#info .inf0_details h4{margin: 9% 0 10% 5%}
+	#container #info #bookTable{margin: -30% 0 0 60%;width: 40%}
+	#container #info #bookTable form input{width: 37%;margin: 4% 0 0 5%;font-size: 1.2em}
+	#container #info #bookTable h3{font-size: 2em}
+	#container #info #bookTable form{margin: 9% 0 0 7%;}
+	#container #info #bookTable form textarea{width: 70%;margin: 4% 0 9% 6%;font-size: 1.2em}
+	#container #info #bookTable form input[type=submit]{padding: 3% 5% 3% 5%;margin: 0 0 10% 20%}
+	#container #discover_story  #overlap p{font-size: 1.3em;line-height: 29px}
+	#brown_box .order_details img{margin: 0 0 0 28%}
+	#brown_box .order_details h4{margin: 10% 0 0 0%;font-size: 1.7em}
+	#brown_box .order_details p{width: 84%;font-size: 1.2em;line-height: 27px}
+	#coffe_sellers #our_menu{width: 45%;display: inline-block;}
+	#coffe_sellers #our_menu #view_menu{margin: 0 0 20% 30%}
+	#coffe_sellers #our_menu p{margin: 10% 0 15% 10%}
+	#customers_say #openion_1,#openion_2,#openion_3,#openion_4,#openion_5{width: 19.6%}
+	#customers_say #openion_1 span,#openion_2 span,#openion_3 span,#openion_4 span,#openion_5 span{
+		margin: 0 0 0 30%;font-size: 1.3em
+	}
+	#customers_say #openion_1 p,#openion_2 p,#openion_3 p,#openion_4 p,#openion_5 p{
+		width: 90%;font-size: 1em;margin: 10% 0 0 5%
+	}
+	#customers_say #openion_1 h6,#openion_2 h6,#openion_3 h6,#openion_4 h6,#openion_5 h6{
+		font-size: 1.6em;margin: 0 0 0 30%
+	}
+	#best_coffe_sellers .capucino{width: 24.5%;margin: 0 0 10% 0%}
+	#best_coffe_sellers .capucino img{width: 80%;}
+	#best_coffe_sellers .capucino h4,h5{font-size: 1.9em; }
+	#best_coffe_sellers .capucino p{font-size: 1.245em}
+	#best_coffe_sellers .gallery .galryimg{width: 100%;margin: 0 0 0 2%}
+	#best_coffe_sellers .capucino span a{font-size: 1.2em}
+	#our_products ul li{display: inline-block;margin: 0% -32% 0 25%;}
+	#our_products ul li a{font-size: 1.4em;padding:3% 8%;}
+	#our_products .grilled_beef{margin: 10% 0 20% 0%}
+	#our_products .grilled_beef h4{font-size: 1.9em}
+	#our_products .grilled_beef p{font-size: 1.3em}
+	#our_products .grilled_beef h5{margin: 8% 0 20% 8%;font-size: 1.9em}
+	#our_products .grilled_beef span{margin: 0 0 0 33%}
+	#footer #about,#service,#haveQuestion{width: 31%;display:inline-block;margin: 10% 0 0 0;}
+	#footer #about h4,#service h4,#haveQuestion h4{font-size: 2.3em;margin: 10% 0 0 -23%}
+	#footer #about p{margin: 7% 0 0 20%;font-size: 1.2em;line-height: 27px}
+	#footer #service ul li{margin: 9% 0 0 30%;font-size: 1.2em}
+	#footer #haveQuestion h6{margin: 10% 0 0 30%;width:55%;font-size: 1.2em }
+	#footer #haveQuestion img{width: 10%;margin: -10% -10% 0 14%}
+	#footer h3{font-size: 1.6em;}
+
+}
